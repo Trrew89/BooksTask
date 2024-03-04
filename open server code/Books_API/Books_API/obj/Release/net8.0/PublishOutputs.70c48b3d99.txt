@@ -1,0 +1,11 @@
+D:\Projects\books\Books_API\Books_API\obj\Release\net8.0\PubTmp\Out\Books_API.exe
+D:\Projects\books\Books_API\Books_API\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+D:\Projects\books\Books_API\Books_API\obj\Release\net8.0\PubTmp\Out\appsettings.json
+D:\Projects\books\Books_API\Books_API\obj\Release\net8.0\PubTmp\Out\Books_API.dll
+D:\Projects\books\Books_API\Books_API\obj\Release\net8.0\PubTmp\Out\Books_API.deps.json
+D:\Projects\books\Books_API\Books_API\obj\Release\net8.0\PubTmp\Out\Books_API.runtimeconfig.json
+D:\Projects\books\Books_API\Books_API\obj\Release\net8.0\PubTmp\Out\Books_API.pdb
+D:\Projects\books\Books_API\Books_API\obj\Release\net8.0\PubTmp\Out\Microsoft.OpenApi.dll
+D:\Projects\books\Books_API\Books_API\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+D:\Projects\books\Books_API\Books_API\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Projects\books\Books_API\Books_API\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll

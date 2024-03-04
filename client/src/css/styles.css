@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Pixelify+Sans:wght@400..700&display=swap');
+
+*{
+    font-family: "Kode Mono", monospace;
+}
+.container{
+    max-width: 600px;
+    position: relative;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+}
+
+.book_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+h1{
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.book {
+    height: 100px;
+    min-width: 500px;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+    box-shadow: 8px 8px 2px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+.book_modal {
+    position: absolute;
+    display: none;
+    justify-content: space-around;  
+    top: 0px;
+    width: 100%;
+    height: 80lvh;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 8px 8px 2px rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 100;
+}
+
+.blackout {
+    display: none;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0px;
+    opacity: 0.3;
+    background-color: gray;
+    z-index: 10;
+}
+
+#prefix {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.add_book{
+    position: absolute;
+    left: 5px;
+}
+
+#book_name {
+    width: 80%;
+}
+
+#book_text{
+    margin-bottom: 20px;
+    resize: vertical;
+}
+
+.top_10_words {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    max-height: 70%;
+}
+
+.found_words {
+    max-height: 90%;
+    overflow: auto;
+}
+
+.add_book_modal {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0px;
+    width: 100%;
+    height: 80lvh;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 8px 8px 2px rgba(0, 0, 0, 0.6);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+    z-index: 100;
+}
