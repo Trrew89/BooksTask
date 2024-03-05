@@ -7,3 +7,8 @@ Client:
 
 Server:
 Open "server" folder and start Books_API.exe
+
+
+
+Note for frontend:
+To close modal window with adding or showing book, click outside of the modal
